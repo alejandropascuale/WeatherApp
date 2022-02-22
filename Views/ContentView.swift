@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var locationManager = LocationManager()
-    
+    @StateObject var locationManager = LocationManager()
+
     var body: some View {
-        Text("Hello, alexander!")
-            .padding()
+        VStack {
+                Welcome()
+                .environmentObject(locationManager)
+        }
+        .background(Color(hue: 0.656, saturation: 0.787, brightness: 0.354 ))
+        .preferredColorScheme(.dark)
     }
 }
 

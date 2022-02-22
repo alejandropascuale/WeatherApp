@@ -18,6 +18,8 @@
 		156D206D27BED82800C63D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156D204327BED82800C63D2A /* Assets.xcassets */; };
 		156D206E27BED82800C63D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156D204327BED82800C63D2A /* Assets.xcassets */; };
 		15CD8C6327C5477B00771B17 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD8C6227C5477B00771B17 /* LocationManager.swift */; };
+		15CD8C6727C5507100771B17 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD8C6627C5507100771B17 /* Welcome.swift */; };
+		15CD8C6827C5507700771B17 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD8C6627C5507100771B17 /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		156D206527BED82800C63D2A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		156D206727BED82800C63D2A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		15CD8C6227C5477B00771B17 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		15CD8C6627C5507100771B17 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,7 @@
 		15CD8C6427C54F0F00771B17 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				15CD8C6627C5507100771B17 /* Welcome.swift */,
 				156D204227BED82500C63D2A /* ContentView.swift */,
 			);
 			path = Views;
@@ -318,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CD8C6727C5507100771B17 /* Welcome.swift in Sources */,
 				156D206B27BED82800C63D2A /* ContentView.swift in Sources */,
 				156D206927BED82800C63D2A /* WeatherAppApp.swift in Sources */,
 				15CD8C6327C5477B00771B17 /* LocationManager.swift in Sources */,
@@ -329,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				156D206C27BED82800C63D2A /* ContentView.swift in Sources */,
+				15CD8C6827C5507700771B17 /* Welcome.swift in Sources */,
 				156D206A27BED82800C63D2A /* WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
