@@ -17,6 +17,7 @@
 		156D206C27BED82800C63D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D204227BED82500C63D2A /* ContentView.swift */; };
 		156D206D27BED82800C63D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156D204327BED82800C63D2A /* Assets.xcassets */; };
 		156D206E27BED82800C63D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156D204327BED82800C63D2A /* Assets.xcassets */; };
+		15CD8C6327C5477B00771B17 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CD8C6227C5477B00771B17 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		156D206127BED82800C63D2A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		156D206527BED82800C63D2A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		156D206727BED82800C63D2A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		15CD8C6227C5477B00771B17 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		156D203B27BED82500C63D2A = {
 			isa = PBXGroup;
 			children = (
+				15CD8C6127C5475900771B17 /* Managers */,
 				156D204027BED82500C63D2A /* Shared */,
 				156D204F27BED82800C63D2A /* macOS */,
 				156D205827BED82800C63D2A /* Tests iOS */,
@@ -139,6 +142,14 @@
 				156D206727BED82800C63D2A /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		15CD8C6127C5475900771B17 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				15CD8C6227C5477B00771B17 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 			files = (
 				156D206B27BED82800C63D2A /* ContentView.swift in Sources */,
 				156D206927BED82800C63D2A /* WeatherAppApp.swift in Sources */,
+				15CD8C6327C5477B00771B17 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
