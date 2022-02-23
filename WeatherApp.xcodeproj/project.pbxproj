@@ -114,14 +114,14 @@
 			isa = PBXGroup;
 			children = (
 				154E026727C6AEFE0002C21C /* Extensions.swift */,
-				154E026227C6ABBD0002C21C /* Preview Content */,
-				15CD8C6427C54F0F00771B17 /* Views */,
-				15CD8C6127C5475900771B17 /* Managers */,
-				156D204027BED82500C63D2A /* Shared */,
 				156D204F27BED82800C63D2A /* macOS */,
+				15CD8C6127C5475900771B17 /* Managers */,
+				154E026227C6ABBD0002C21C /* Preview Content */,
+				156D204927BED82800C63D2A /* Products */,
+				156D204027BED82500C63D2A /* Shared */,
 				156D205827BED82800C63D2A /* Tests iOS */,
 				156D206427BED82800C63D2A /* Tests macOS */,
-				156D204927BED82800C63D2A /* Products */,
+				15CD8C6427C54F0F00771B17 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
